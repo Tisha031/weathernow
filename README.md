@@ -228,14 +228,6 @@ git push origin feature/your-feature-name
 # Open a Pull Request
 ```
 
----
-
-## 📄 License
-
-MIT License — feel free to use this project for learning or portfolio purposes.
-
----
-
 ## 👩‍💻 Author
 
 **Tisha Jinger**
