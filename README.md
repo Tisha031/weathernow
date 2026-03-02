@@ -1,4 +1,4 @@
-# 🌤️ WeatherNow
+# WeatherNow
 
 > Real-time weather intelligence dashboard — search any city, get instant weather data & 5-day forecast.
 
@@ -18,18 +18,18 @@
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔍 **City Search** — search any city worldwide with Enter key support
-- 🌡️ **Current Weather** — temperature, feels like, humidity, wind speed, visibility, pressure, cloud cover
-- 📅 **5-Day Forecast** — daily high/low with weather icons
-- 🔄 **°C / °F Toggle** — instant unit conversion, no extra API call
-- 🕐 **Local Time** — shows local time of the searched city
-- 🕓 **Search History** — last 5 cities saved in localStorage, click to re-search
-- ⭐ **Favourite City** — pin your favourite city, loads automatically on refresh
-- 🎨 **Dynamic Background** — gradient changes based on weather (sunny, cloudy, rainy, stormy, snow)
-- ⚠️ **Smart Error Handling** — clear messages for invalid city, expired API key, network errors
-- 📱 **Fully Responsive** — works on mobile, tablet, desktop
+-  **City Search** — search any city worldwide with Enter key support
+-  **Current Weather** — temperature, feels like, humidity, wind speed, visibility, pressure, cloud cover
+-  **5-Day Forecast** — daily high/low with weather icons
+-  **°C / °F Toggle** — instant unit conversion, no extra API call
+-  **Local Time** — shows local time of the searched city
+-  **Search History** — last 5 cities saved in localStorage, click to re-search
+-  **Favourite City** — pin your favourite city, loads automatically on refresh
+-  **Dynamic Background** — gradient changes based on weather (sunny, cloudy, rainy, stormy, snow)
+-  **Smart Error Handling** — clear messages for invalid city, expired API key, network errors
+-  **Fully Responsive** — works on mobile, tablet, desktop
 
 ---
 
@@ -66,7 +66,7 @@ WeatherNow routes all API calls through **server-side Next.js API routes**. The 
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 weather-dashboard/
@@ -106,7 +106,7 @@ weather-dashboard/
 
 ---
 
-## 🚀 Run Locally
+## Run Locally
 
 ### Prerequisites
 - Node.js 18+
@@ -129,44 +129,6 @@ cp .env.example .env.local
 
 # 5. Add your OpenWeatherMap API key to .env.local
 # OPENWEATHER_API_KEY=your_key_here
-
-# 6. Start development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## 🌐 Deploy on Vercel
-
-```bash
-# 1. Push to GitHub
-git init
-git add .
-git commit -m "initial commit: weather dashboard"
-git remote add origin https://github.com/Tisha031/weather-dashboard.git
-git push -u origin main
-```
-
-Then:
-1. Go to [vercel.com](https://vercel.com) → **New Project**
-2. Import `weather-dashboard` from GitHub
-3. Go to **Settings → Environment Variables**
-4. Add: `OPENWEATHER_API_KEY` = `your_actual_key`
-5. Click **Deploy** ✅
-
----
-
-## 🔑 Environment Variables
-
-| Variable | Description | Required |
-|---|---|---|
-| `OPENWEATHER_API_KEY` | Your OpenWeatherMap API key | ✅ Yes |
-
-Get a free key at [openweathermap.org/api](https://openweathermap.org/api) — free tier allows 1,000,000 calls/month.
-
----
 
 ## 📡 API Endpoints
 
@@ -203,30 +165,6 @@ Returns 5-day / 3-hour forecast for the given city.
 
 ---
 
-## 🎨 Dynamic Background Logic
-
-| Weather Condition | Background |
-|---|---|
-| ☀️ Clear | Blue sky gradient |
-| ☁️ Cloudy | Grey-slate gradient |
-| 🌧️ Rain / Drizzle | Dark blue gradient |
-| ❄️ Snow | Icy white-blue gradient |
-| ⛈️ Thunderstorm | Dark purple-black gradient |
-| 🌫️ Mist / Fog / Haze | Muted grey gradient |
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, open an issue first.
-
-```bash
-# Fork the repo, then:
-git checkout -b feature/your-feature-name
-git commit -m "add: your feature"
-git push origin feature/your-feature-name
-# Open a Pull Request
-```
 
 ## 👩‍💻 Author
 
