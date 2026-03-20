@@ -8,8 +8,6 @@
 ![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap_API-orange?style=for-the-badge&logo=openstreetmap&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deployed_on_Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-** Live Demo:** https://weathernow-two-ochre.vercel.app/(https://weathernow-two-ochre.vercel.app/)
-
 ---
 
 ## Preview
@@ -17,8 +15,7 @@
 > Search any city → get real-time weather instantly with a dynamic UI that changes based on weather conditions.
 
 ---
-
-## Features
+Features
 
 -  **City Search** — search any city worldwide with Enter key support
 -  **Current Weather** — temperature, feels like, humidity, wind speed, visibility, pressure, cloud cover
@@ -32,8 +29,7 @@
 -  **Fully Responsive** — works on mobile, tablet, desktop
 
 ---
-
-## Architecture
+Architecture
 
 ```
 User (Browser)
@@ -44,16 +40,14 @@ Next.js API Routes (server-side)     ← API key stays here, NEVER exposed to br
     ↓
 OpenWeatherMap API (external)
 ```
-
-### Why Next.js API Routes?
+Why Next.js API Routes?
 
 Most weather projects call the OpenWeatherMap API **directly from the browser** — this exposes your API key in the network tab for anyone to steal.
 
 WeatherNow routes all API calls through **server-side Next.js API routes**. The API key lives in `.env.local` and is only accessed on the server via `process.env.OPENWEATHER_API_KEY`. This is how production apps handle third-party API integrations.
 
 ---
-
-## 🛠️ Tech Stack
+Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -65,8 +59,7 @@ WeatherNow routes all API calls through **server-side Next.js API routes**. The 
 | **Vercel** | Deployment, environment variables |
 
 ---
-
-## Folder Structure
+Folder Structure
 
 ```
 weather-dashboard/
@@ -105,10 +98,8 @@ weather-dashboard/
 ```
 
 ---
-
-## Run Locally
-
-### Prerequisites
+Run Locally
+Prerequisites
 - Node.js 18+
 - Free API key from [openweathermap.org](https://openweathermap.org/api)
 
@@ -164,9 +155,7 @@ GET /api/weather?city=Mumbai
 Returns 5-day / 3-hour forecast for the given city.
 
 ---
-
-
-## Author
+Author
 
 **Tisha Jinger**
 - GitHub: [@Tisha031](https://github.com/Tisha031)
