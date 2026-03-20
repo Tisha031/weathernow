@@ -8,11 +8,11 @@
 ![OpenWeatherMap](https://img.shields.io/badge/OpenWeatherMap_API-orange?style=for-the-badge&logo=openstreetmap&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deployed_on_Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-**🔗 Live Demo:** [https://weather-dashboard-tisha031.vercel.app](https://weather-dashboard-tisha031.vercel.app)
+** Live Demo:** https://weathernow-two-ochre.vercel.app/(https://weathernow-two-ochre.vercel.app/)
 
 ---
 
-## 📸 Preview
+## Preview
 
 > Search any city → get real-time weather instantly with a dynamic UI that changes based on weather conditions.
 
@@ -33,7 +33,7 @@
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 User (Browser)
@@ -166,7 +166,7 @@ Returns 5-day / 3-hour forecast for the given city.
 ---
 
 
-## 👩‍💻 Author
+## Author
 
 **Tisha Jinger**
 - GitHub: [@Tisha031](https://github.com/Tisha031)
@@ -174,4 +174,4 @@ Returns 5-day / 3-hour forecast for the given city.
 
 ---
 
-> ⭐ If you found this project useful, give it a star on GitHub!
+> If you found this project useful, give it a star on GitHub!
